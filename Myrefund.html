@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script  src="js/jquery-3.3.1.js" ></script>
+		<link rel="stylesheet" href="css/store_index.css" />
+		<link rel="stylesheet" href="css/inearHeadset.css" />
+		<link rel="stylesheet" href="css/MyCenterMenu.css" />
+	
+		<script type="text/javascript" src="js/login.js" ></script>
+	</head>
+	<style>
+		
+		/*个人中心正文*/
+	.Mycenter .MyMessage{
+		border: 0px solid red;
+		padding: 50px;
+		height: 800px;
+		width: 900px;
+		
+		background-color: #F0F0F0;
+		float: left;
+	}
+	.Mycenter .MyMessage table select{
+		width: 200px;
+		height: 30px;
+	}
+	.Mycenter .MyMessage table input{
+		width: 200px;
+		
+	}
+	.Mycenter .MyMessage table input[type="button"]{
+		width: 100px;
+		height: 50px;
+		border: 0px;
+		background-color: darkorange;
+		color: white;
+		margin-right: 80px;
+		
+	}
+		
+	</style>
+	<body>
+		<!--头部黑色导航-->
+		<div class="TopNav">
+			<!--导航中部信息-->
+			<div class="center">
+				<ul class="left">
+					<li><a href="store_index.html">Ant商场</a></li>
+					<li><a>Ant服务</a></li>
+					<li><a>下载</a></li>
+				</ul>
+				<ul class="right">
+					<li class="login1"><a>登录</a></li>
+					<li><a href="signin.html">注册</a></li>
+					<li><a>消息通知</a></li>
+				</ul>
+				<!--购物车-->
+				<div class="shopping">
+					购物车
+				</div>
+			</div>
+		</div>
+		<!--头部log导航-->
+		<div class="NvaLog">
+			<img class="log" src="img/logo.jpg"/>
+			<ul>
+				<li><a>耳机</a></li>
+				<li><a>音响</a></li>
+				<li><a>服务</a></li>
+				<li><a>社区</a></li>
+				<li><a>联系</a></li>
+			</ul>
+			<input  type="text" />
+			<div class="sousuo">
+				搜索
+			</div>
+		</div>
+		<!--个人中心-->
+		<div class="Mycenter" >
+			<!--个人中心左菜单-->
+			<div class="MycenterMenu">
+				<h3 style="color: yellow;">个人中心</h3>
+				<!--头部-->
+				<div class="head">
+					
+					<img src="img/soundshow.jpg" width="100px" height="100px" />
+					<h4>滕某某</h4>
+				</div>
+				<div class="MyMenu">
+					<ul>
+						<a href="#"><li>个人中心</li></a>
+						
+					</ul>
+					
+				</div>
+				<!--订单管理-->
+				<div class="MyMenu" style="height: 150px;">
+					<ul>
+						<a href="#"><li>我的订单</li></a>
+						<a href="#"><li>退款管理</li></a>
+						<a href="#"><li>收货地址管理</li></a>
+					</ul>
+				</div>
+				<div class="MyMenu">
+					<ul>
+						<a href="#"><li>账号设置</li></a>
+					</ul>
+					
+				</div>
+			</div>
+			<!--个人中心正文-->
+			<div  class="MyMessage">
+				<h3>收货地址管理</h3>
+				<div class="MyMessage1">
+						<table  width="800" height="400px">
+							<tr>
+								<td width="200px" align="right">所在地区</td>
+								<td>
+									<select>
+										<option value="湖南省">湖南省</option>
+										<option value="湖北省">湖北省</option>
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<td width="200px" align="right">详细地址</td>
+								<td>
+									<textarea style="height: 80px; width: 300px;"></textarea>
+								</td>
+							</tr>
+							<tr>
+								<td width="200px" align="right">邮政编码</td>
+								<td>
+									<input type="text" class="mail" id="mail" name="mail" />
+								</td>
+							</tr>
+							<tr>
+								<td width="200px" align="right">手机号码</td>
+								<td>
+									<input type="text" class="phone" id="phone" name="phone" />
+								</td>
+							</tr>
+							<tr height="100px">
+								<td width="200px" align="right"></td>
+								<td >
+									<input type="button" id="save" class="save" name="save" value="保存" />
+									<input type="button" id="add" class="add" name="add" value="新增地址" />
+								</td>
+							</tr>
+						</table>
+				</div>
+			</div>
+		</div>
+		
+		<!--底部信息-->
+		<div class="massage">
+			<p>
+				©mi.com 京ICP证1123号 京ICP备156+号 京公网安备1178978134号 京网文[2017]1798-765号 <br />
+			违法和不良信息举报电话：187-1113-2688，本网站所列数据，除特殊说明，所有数据均出自我司实验室测试<br />
+			<span>探索音乐，Ant为声音而生</span>
+			</p>
+			
+		</div>
+		<!--登录对话框-->
+		
+		<script type="text/javascript">
+				
+		</script>
+	</body>
+</html>
