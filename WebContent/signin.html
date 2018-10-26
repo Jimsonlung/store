@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<style>
+		body{
+			padding: 100px;
+			background-color: #F6F6F6;
+			
+		}
+		.rightimg{
+			position: absolute;
+			height: 500px;
+			width: 600px;
+			border: 0px solid red;
+			background-image: url(img/signin.jpg);
+			background-size: 100%100%;
+			
+		}
+		.leftsignin{
+			position: absolute;
+			left: 800px;
+			height: 500px;
+			width: 400px;
+			border-left: 1px solid black;
+			background-color: white;
+			padding-left: 50px;
+			
+		}
+		.leftsignin .signinset{
+			height: 50px;
+			margin-top: 20px;
+			line-height: 50px;
+		}
+		.leftsignin .signinset input[type="button"]{
+			height: 50px;
+			width: 100px;
+			border: 0px;
+			background-color: #00BFFF;
+			color: black;
+			font-size: 20px;
+			margin-left: 100px;
+		}
+		
+	</style>
+	<body>
+		<div class="rightimg"></div>
+		<div class="leftsignin">
+			<h3>注册</h3>
+			<hr />
+			<div class="signinset">
+				用户名：&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="username" class="username" name="username" />
+				
+			</div>
+			<div class="signinset">
+				邮箱：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="mail" class="mail" name="mail" />
+			</div>
+			<div class="signinset">
+				密码：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="password" id="password" class="password" name="password" />
+			</div>
+			<div class="signinset">
+				确认密码：<input type="password" id="password1" class="password1" name="password1" />
+			</div>
+			
+			<div class="signinset">
+				手机号码：<input type="text" id="phone" class="phone" name="phone" />
+			</div>
+			<div class="signinset">
+				<input type="button" id="sig" class="sig" value="注册" />
+			</div>
+		</div>
+	</body>
+</html>

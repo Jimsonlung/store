@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script  src="js/jquery-3.3.1.js" ></script>
+		<link rel="stylesheet" href="css/store_index.css" />
+		<link rel="stylesheet" href="css/inearHeadset.css" />
+		<link rel="stylesheet" href="css/MyCenterMenu.css" />
+		<link rel="stylesheet" href="css/Mycenter.css" />
+		<script type="text/javascript" src="js/login.js" ></script>
+	</head>
+	<style>
+		
+		
+		
+	</style>
+	<body>
+		<!--头部黑色导航-->
+		<div class="TopNav">
+			<!--导航中部信息-->
+			<div class="center">
+				<ul class="left">
+					<li><a href="store_index.html">Ant商场</a></li>
+					<li><a>Ant服务</a></li>
+					<li><a>下载</a></li>
+				</ul>
+				<ul class="right">
+					<li class="login1"><a>登录</a></li>
+					<li><a href="signin.html">注册</a></li>
+					<li><a>消息通知</a></li>
+				</ul>
+				<!--购物车-->
+				<div class="shopping">
+					购物车
+				</div>
+			</div>
+		</div>
+		<!--头部log导航-->
+		<div class="NvaLog">
+			<img class="log" src="img/logo.jpg"/>
+			<ul>
+				<li><a>耳机</a></li>
+				<li><a>音响</a></li>
+				<li><a>服务</a></li>
+				<li><a>社区</a></li>
+				<li><a>联系</a></li>
+			</ul>
+			<input  type="text" />
+			<div class="sousuo">
+				搜索
+			</div>
+		</div>
+		<!--个人中心-->
+		<div class="Mycenter" >
+			<!--个人中心左菜单-->
+			<div class="MycenterMenu">
+				<h3 style="color: yellow;">个人中心</h3>
+				<!--头部-->
+				<div class="head">
+					
+					<img src="img/soundshow.jpg" width="100px" height="100px" />
+					<h4>滕某某</h4>
+				</div>
+				<div class="MyMenu">
+					<ul>
+						<a href="#"><li>个人中心</li></a>
+						
+					</ul>
+					
+				</div>
+				<!--订单管理-->
+				<div class="MyMenu" style="height: 150px;">
+					<ul>
+						<a href="MyCenter.html"><li>我的订单</li></a>
+						<a href="#"><li>退款管理</li></a>
+						<a href="Myrefund.html"><li>收货地址管理</li></a>
+					</ul>
+				</div>
+				<div class="MyMenu">
+					<ul>
+						<a href="MyMessage.html"><li>账号设置</li></a>
+					</ul>
+					
+				</div>
+			</div>
+			<!--个人中心正文-->
+			<div  class="MyMessage">
+				<h3>退货订单</h3>
+				<div class="MyMessage1">
+						<table id="Ta"  style="">
+						<!--描述：行-->
+						
+						<tr align="center">
+							<!--描述：列-->
+							<td colspan="2" align="left"><input type="checkbox" id="all" onclick="checkall()" >全选</td>
+							
+							<td >订单编号</td>
+							<td>下单时间</td>
+							<td>收件人</td>
+							<td>商品名称</td>
+							<td>单价</td>
+							<td>订单数量</td>
+							<td>订单金额</td>
+							<td>状态</td>
+							<td>操作</td>
+						</tr>
+						<tr align="center">
+							<td><input type="checkbox" name="checbox[]"></td>
+							<td width="60px">
+								<img src="img/GameHeadimg1.jpg" />
+							</td>
+							<td>A20180619001</td>
+							<td>2018-6-19</td>
+							<td>滕某某</td>
+							<td>那个东西</td>
+							<td>20$</td>
+							<td>2</td>
+							<td>40$</td>
+							<td>已受理</td>
+							<td><input type="button" value="修改" onclick=""></td>
+							
+						</tr>
+						<tr align="center">
+							<td><input type="checkbox" name="checbox[]"></td>
+							<td width="60px">
+								<img src="img/GameHeadimg2.jpg" />
+							</td>
+							<td>A20180619001</td>
+							<td>2018-6-19</td>
+							<td>滕某某</td>
+							<td>那个东西</td>
+							<td>20$</td>
+							<td>2</td>
+							<td>40$</td>
+							<td>已受理</td>
+							<td><input type="button" value="修改" onclick=""></td>
+							
+						</tr>
+						
+						<tr>
+							<!--描述：列-->
+							<td colspan="10" height="30px">
+								<input type="button" value="删除选中订单" onclick="">
+							
+							</td>
+							
+							
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+		
+		<!--底部信息-->
+		<div class="massage">
+			<p>
+				©mi.com 京ICP证1123号 京ICP备156+号 京公网安备1178978134号 京网文[2017]1798-765号 <br />
+			违法和不良信息举报电话：187-1113-2688，本网站所列数据，除特殊说明，所有数据均出自我司实验室测试<br />
+			<span>探索音乐，Ant为声音而生</span>
+			</p>
+			
+		</div>
+		<!--登录对话框-->
+		
+		<script type="text/javascript">
+				
+		</script>
+	</body>
+</html>

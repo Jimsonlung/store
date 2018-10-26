@@ -1,0 +1,172 @@
+/*<!--物品展示区-->*/
+	.show{
+		height: 450px;
+		width: 1200px;
+		margin-left: auto;
+		margin-right: auto;
+		border: 0px;
+		margin-top: 20px;
+		
+	}
+	.show .showMenu{
+		height: 450px;
+		width: 200px;
+		float: left;
+		
+		background-color: #51645C;
+		color: white;
+	}
+	.show .showMenu span{
+		font-size: 28px;
+		color: #00AEE1;
+	}
+	.show .showMenu ul,li{
+		padding: 0px;
+		margin: 0px;
+		
+	}
+	.show .showMenu li{
+		list-style-type: none;
+		border: 0px solid black;
+		height: 40px;
+		line-height: 40px;
+		text-align: center;
+	}
+	.show .showMenu li:hover{
+		color: white;
+		background-color: darkorange;
+		
+	}
+	.show .showMenu a{
+		text-decoration: none;
+		color: white;
+	}
+	.show .showimg{
+		height: 450px;
+		width: 1000px;
+		float: left;
+		
+	}
+	.show .showimg{
+		background-image: url(../img/showimg3.jpg);
+		background-size: 100%100%;
+	}
+	.show .showimg .showimgChecke{
+		position: relative;
+		top: 400px;
+		left: 400px;
+		width: 500px;
+		height: 10px;
+	}
+	.show .showimg .showimgChecke div{
+		float: left;
+		background-color: #00AEE1;
+		width: 50px;
+		height: 5px;
+		margin-left: 10px;
+	}
+	.show .showimg .showimgChecke div:hover{
+		background-color: white;
+	}
+	/*<!--耳机展示区-->*/
+	.headset{
+		height: 450px;
+		width: 1200px;
+		margin-left: auto;
+		margin-right: auto;
+		border: 0px solid red;
+		margin-top: 20px;
+		background-color: #F5F5F5;
+	}
+	.headset .headsetleft{
+		height: 450px;
+		width: 200px;
+		float: left;
+		background-image: url(../img/headsetimg1.jpg);
+		color: white;
+		background-size: 100%100%;
+		color: black;
+		font-size: 20px;
+		line-height: 100px;
+	}
+	.headset .headsetright{
+		
+		height: 200px;
+		width: 250px; 
+		background-color: white;
+		
+		background-size: 100%70%;
+		background-repeat: no-repeat;
+		background-position: top center;
+		float: left;
+		text-align: center;
+		margin-left: 70px;
+		margin-top: 20px;
+	}
+	.headset .headsetright p{
+		margin-top: 150px;
+	}
+	.headset .headsetright span{
+		color: darkorange;
+	}
+	.headset .headsetright:hover{
+		border-bottom: 1px solid #00AEE1 ;
+	}
+	.headset .headsetleft:hover{
+		border: 1px solid #00AEE1 ;
+	}
+	.headsetrightmian{
+		
+		height: 50%;
+	}
+	/*<!--音响展示区-->*/
+	.sound{
+		height: 450px;
+		width: 1200px;
+		margin-left: auto;
+		margin-right: auto;
+		border: 0px solid red;
+		margin-top: 20px;
+		background-color: #F5F5F5;
+	}
+	.sound .headsetleft{
+		height: 450px;
+		width: 200px;
+		float: left;
+		background-image: url(../img/soundimg8.jpg);
+		color: white;
+		background-size: 100%100%;
+		color: black;
+		font-size: 20px;
+		line-height: 100px;
+	}
+	.sound .headsetright{
+		
+		height: 200px;
+		width: 250px; 
+		background-color: white;
+		
+		background-size: 100%70%;
+		background-repeat: no-repeat;
+		background-position: top center;
+		float: left;
+		text-align: center;
+		margin-left: 70px;
+		margin-top: 20px;
+	}
+	.sound .headsetright p{
+		margin-top: 150px;
+	}
+	.sound .headsetright span{
+		color: darkorange;
+	}
+	.sound .headsetright:hover{
+		border-bottom: 1px solid #00AEE1 ;
+	}
+	.sound .headsetleft:hover{
+		border: 1px solid #00AEE1 ;
+	}
+	.headsetrightmian{
+		
+		height: 50%;
+	}
