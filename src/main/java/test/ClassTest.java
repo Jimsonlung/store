@@ -18,4 +18,5 @@ public class ClassTest {
         User user = (User) ac.getBean("user");
         Assert.assertNotNull(user);
     }
+
 }
