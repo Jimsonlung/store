@@ -5,5 +5,6 @@
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
-    
+    <bean id="user" class="main.java.entity.User"></bean>
+
 </beans>
