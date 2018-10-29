@@ -78,7 +78,4 @@ public class User {
         this.answer = answer;
     }
 
-    public void test(){
-        System.out.println("user test.");
-    }
 }

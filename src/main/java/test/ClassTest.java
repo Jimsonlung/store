@@ -1,6 +1,7 @@
 package main.java.test;
 
 import main.java.entity.User;
+import org.junit.Assert;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -15,6 +16,6 @@ public class ClassTest {
     public void test1(){
         ApplicationContext ac = new ClassPathXmlApplicationContext("main/resources/applicationContext.xml");
         User user = (User) ac.getBean("user");
-        user.test();
+        Assert.assertNotNull(user);
     }
 }
