@@ -8,8 +8,8 @@ public class Order {
     private String id;
     private double money;
     private int state;
-    private User user;
-    private Goods goods;
+    private User userId;
+    private Goods goodsId;
 
     public String getId() {
         return id;
@@ -35,19 +35,19 @@ public class Order {
         this.state = state;
     }
 
-    public User getUser() {
-        return user;
+    public User getUserId() {
+        return userId;
     }
 
-    public void setUser(User user) {
-        this.user = user;
+    public void setUserId(User userId) {
+        this.userId = userId;
     }
 
-    public Goods getGoods() {
-        return goods;
+    public Goods getGoodsId() {
+        return goodsId;
     }
 
-    public void setGoods(Goods goods) {
-        this.goods = goods;
+    public void setGoodsId(Goods goodsId) {
+        this.goodsId = goodsId;
     }
 }
